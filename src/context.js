@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-//import useFetch from "./useFetch";
+
 import { useContext } from "react";
 export const API_URL = "https://www.omdbapi.com/?apikey=1827a1c5";
 
