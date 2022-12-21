@@ -156,7 +156,6 @@ a {
   border: 0.2rem solid rgb(23, 23, 83);
   font-size: 1.8rem;
   border-radius: 0.5rem;
-  transition: all 0.3s linear;
 }
 
 a:hover {
