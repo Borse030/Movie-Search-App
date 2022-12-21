@@ -9,15 +9,11 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  background-color: white;
-}
+
 
 h2 {
   font-family: "Lora", serif;
-  color: rgb(23, 23, 83);
   font-size: 2rem;
-  transition: all 0.5s linear;
 }
 
 a {
@@ -25,11 +21,10 @@ a {
 }
 
 img {
-  min-width: 10rem;
+  min-width: 20rem;
   max-height: 30rem;
   margin: 1rem 0;
   border-radius: 1rem;
-  transition: all 0.3s linear;
 }
 
 /* resuable code  */
@@ -40,7 +35,6 @@ img {
 }
 
 .grid {
-  /* width: 100%; */
   display: grid;
   gap: 3rem;
 }
@@ -105,7 +99,6 @@ input {
 
 .movie-section .loading {
   font-size: 3.2rem;
-  color: white;
   text-align: center;
 }
 
