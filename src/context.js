@@ -10,6 +10,12 @@ function AppProvider({ children }) {
   const [movie, setMovie] = useState([]);
   const [isError, setIsError] = useState({ show: "false", msg: "" });
   const [query, setQuery] = useState("Avatar");
+  
+  
+    if(query === ""){
+    setQuery("Avatar")
+  }
+  
   const getMovies = async (url) => {
     setIsLoading(true);
     try {
